@@ -1,0 +1,33 @@
+/* CSS for DisplayCard component */
+.Display-Card-Container {
+    width: 100%;
+    height: auto; /* Remove fixed height to allow content to expand */
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add margin between cards to prevent overlap */
+  }
+  
+  .Thumbnail {
+    flex: 0 0 20%; /* Adjust the width for the card image */
+    margin-right: 10px;
+  }
+  
+  .Thumbnail img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .Product {
+    font-size: 12px;
+    color: #000;
+    flex: 1;
+  }
+  
+  .Set {
+    font-weight: bold;
+    color: #000;
+    font-size: 12px;
+  }
+  
